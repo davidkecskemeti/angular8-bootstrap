@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+npm install bootstrap@3.3.7 --save
+npm install bootstrap@3.3.7 tether jquery --save
+
+"styles":[
+"styles.css",
+"./node_modules/bootstrap/dist/css/bootstrap.css"
+],
+
+"scripts":[
+"./node_modules/jquery/dist/jquery.js",
+"./node_modules/tether/dist/js/tether.js",
+"./node_modules/bootstrap/dist/js/bootstrap.js"
+],
